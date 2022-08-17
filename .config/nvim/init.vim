@@ -268,3 +268,4 @@ nnoremap <silent> <space>p  :<C-u>CocListResume<CR>i
 
 highlight Normal ctermbg=none
 highlight NonText ctermbg=none
+highlight clear SignColumn
