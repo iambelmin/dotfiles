@@ -1,0 +1,6 @@
+require "iambelmin.options"
+require "iambelmin.keymaps"
+require "iambelmin.plugins"
+require "iambelmin.colorscheme"
+require "iambelmin.cmp"
+require "iambelmin.lsp"
