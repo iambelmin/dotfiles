@@ -2,7 +2,7 @@ local options = {
 	cmdheight = 2,
 	completeopt = { "menuone", "noselect" },
   smarttab = true,
-	conceallevel = 0, 
+	conceallevel = 0,
 	fileencoding = "utf-8",
   tabstop = 2,
   shiftwidth = 2,
@@ -31,6 +31,6 @@ local options = {
 for k, v in pairs(options) do
   vim.opt[k] = v
 end
-
 --vim.cmd "highlight clear SignColumn"
+
 vim.cmd "set shortmess+=c"

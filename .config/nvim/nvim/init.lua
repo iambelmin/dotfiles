@@ -1,8 +1,0 @@
-require "iambelmin.options"
-require "iambelmin.keymaps"
-require "iambelmin.plugins"
-require "iambelmin.colorscheme"
-require "iambelmin.cmp"
-require "iambelmin.lsp"
-require "iambelmin.telescope"
-require "iambelmin.treesitter"
