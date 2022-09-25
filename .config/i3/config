@@ -239,6 +239,7 @@ workspace $ws4 output DVI-I-1-1
 workspace $ws5 output DVI-I-1-1
 assign [class="kitty"] $ws1
 assign [class="Org.gnome.Nautilus"] $ws2
+assign [class="Postman"] $ws2
 assign [class="Google-chrome"] $ws3
 assign [class="Slack"] $ws4
 assign [class="zoom"] $ws5
@@ -246,6 +247,7 @@ assign [class="zoom"] $ws5
 exec_always --no-startup-id kitty
 exec_always --no-startup-id google-chrome
 exec_always --no-startup-id slack
+exec_always --no-startup-id postman
 exec_always --no-startup-id zoom
 
 
