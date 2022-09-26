@@ -51,6 +51,7 @@ return packer.startup(function(use)
   use "kyazdani42/nvim-tree.lua"
   use "akinsho/bufferline.nvim"
   use "moll/vim-bbye"
+  use "nvim-lualine/lualine.nvim"
 
 
   use "hrsh7th/nvim-cmp" -- The completion plugin
@@ -67,6 +68,7 @@ return packer.startup(function(use)
   -- Lsp
   use "neovim/nvim-lspconfig"
   use "williamboman/nvim-lsp-installer"
+  use "jose-elias-alvarez/null-ls.nvim"
 
   -- Telescope
   use "nvim-telescope/telescope.nvim"

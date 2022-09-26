@@ -24,7 +24,7 @@ keymap("n", "<S-l>", ":bnext<CR>", opts)
 keymap("n", "<S-h>", ":bprevious<CR>", opts)
 
 -- keymap("n", "<leader>f", "<cmd>Telescope find_files<cr>", opts)
-keymap("n", "<leader>f", "<cmd>lua require'telescope.builtin'.find_files(require('telescope.themes').get_dropdown({ previewer = false }))<cr>", opts)
+keymap("n", "<C-p>", "<cmd>lua require'telescope.builtin'.find_files(require('telescope.themes').get_dropdown({ previewer = false }))<cr>", opts)
 keymap("n", "<c-t>", "<cmd>Telescope live_grep<cr>", opts)
 
 
@@ -55,3 +55,7 @@ keymap("n", "<leader>e", ":NvimTreeToggle<cr>", opts)
 
 -- Bufferline
 keymap("n", "<C-W>", ":Bdelete!<CR>", opts)
+
+
+-- Formatter
+keymap("n", "<leader>f", ":Format<cr>", opts)
