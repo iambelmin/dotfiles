@@ -207,3 +207,4 @@ export TERM=xterm-256color
 export PATH=$PATH:/usr/local/go/bin
 export PATH=$PATH:/home/iambelmin/go/bin
 export PATH=/usr/local/bin/nvim/bin/:$PATH
+export PATH=$PATH:$(yarn global bin)
